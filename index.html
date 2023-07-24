@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Faceless Project</title>
+</head>
+<body>
+    <style>
+        @import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
+        .logo {
+            font-family: Arial, sans-serif;
+            font-weight: bold;
+            color: #9d4edd;
+            text-align: center;
+            padding: 20px;
+            background: #240046;
+        }
+
+.content h2 {
+  color: #ffffff;
+  font-size: 50px;
+  position: absolute;
+  transform: translate(35%, -160%);
+}
+.content h6 {
+  color: #ffffff;
+  font-size: 75px;
+  position: absolute;
+  transform: translate(0px, -305%);
+}
+
+.content h2:nth-child(1) {
+  color: transparent;
+  -webkit-text-stroke: 2px #9d4edd;
+}
+.content h6:nth-child(1) {
+  color: transparent;
+  -webkit-text-stroke: 2px #5A189A;
+}
+
+.content h2:nth-child(2) {
+  color: #9d4edd;
+  animation: animate 4s ease-in-out infinite;
+}
+.content h6:nth-child(2) {
+  color: #5A189A;
+  animation: animate 4s ease-in-out infinite;
+}
+
+@keyframes animate {
+  0%,
+  100% {
+    clip-path: polygon(
+      0% 45%,
+      16% 44%,
+      33% 50%,
+      54% 60%,
+      70% 61%,
+      84% 59%,
+      100% 52%,
+      100% 100%,
+      0% 100%
+    );
+  }
+
+  50% {
+    clip-path: polygon(
+      0% 60%,
+      15% 65%,
+      34% 66%,
+      51% 62%,
+      67% 50%,
+      84% 45%,
+      100% 46%,
+      100% 100%,
+      0% 100%
+    );
+  }
+}
+    </style>
+</head>
+<body>
+    <img src="logo1.png", width=150px>
+    <section>
+        <div class="content">
+            <h2>Faceless' Project</h2>
+            <h2>Faceless' Project</h2>
+        </div>
+        <div class="content">
+            <h6>Fl'p</h6>
+            <h6>Fl'p</h6>
+        </div>
+    </section>
+</body>
+
+<style>
+    body{
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(
+        180deg,#240046,#190030
+    );
+    font-family: "poppins",sans-serif;
+    cursor: url('arrow2.cur'), auto;
+}
+    .menu {
+        background-color: #3c096c;
+        padding: 10px;
+        color: #ffffff; 
+        font-size: 10px;
+        text-align: center;
+    }
+    
+    .menu a {
+        text-decoration: none;
+        color: #ffffff;
+        padding: 5px;
+        margin-bottom: 5px;
+        cursor: url('hand.cur'), auto;
+        font-size: 20px;
+    }
+    
+    .menu a:hover {
+        background-color: #e0aaff;
+    }
+    
+    .content {
+        padding: 10px;
+    }
+    
+    .hidden {
+        display: none;
+    }
+</style>
+</head>
+<body>
+<div class="menu">
+    <h1>Menu</h1>
+    <a href="#Menu" onclick="showMenu()">Основная страница</a>
+    <a href="#Game" onclick="showGame()">Игры от создателя и его друзей</a>
+    <a href="#Update" onclick="showUpdate()">Обновление сайта</a>
+    <a href="#About" onclick="showAbout()">Информация о создателе</a>
+</div>
+
+<div class="content">
+    <div id="Menu" class="">
+        <style>
+            .MMenu {
+            font-family: Arial, sans-serif;
+            font-size: 50px;
+            font-weight: bold;
+            color: #7b2cbf;
+            text-align: center;
+            padding: 20px;
+            background: #3c096c;
+        }
+        .LText1 {
+            font-family: Arial, sans-serif;
+            font-size: 25px;
+            font-weight: bold;
+            color: #9d4edd;
+            text-align: left;
+            padding: 20px;
+            background: #5a189a;
+        }
+        </style>
+        <div class="MMenu">
+            Основная страница
+        </div>
+        <div class="LText1" >
+            <h4>Этот сайт был создан как школьный годовой проект 
+            человеком по имени Евгений, а в интернете известен как Faceless,
+            поэтому сайт и называется Faceless' Project. На этом сайте вы
+            можете видеть Меню(Menu) в котором есть четыре вкладки:</h4>
+            <h3>Первая вкладка - это Основная страница. где мы, в принципе, сейчас и находимся. </h3>
+            <h3>Вторая вкладка - это Игры от создателя и его друзей. Там вы сможете скачивать 
+                игры, которые сделал я или мои друзья, а также посмотреть на пару скриншотов 
+                об игре.</h3>
+            <h3>Третья вкладка - это Обновление сайта. Там можно будет увидеть, что
+                я добавил на сайт в том или ином Обновлении. </h3>
+            <h3>И, наконец, четвёртая вкладка - это Информация о создателе. Там есть
+                вся информация обо мне и где меня можно найти. </h3>
+        </div>
+    </div>
+    <div id="Game" class="hidden">
+        <style>
+            .GMenu {
+            font-family: Arial, sans-serif;
+            font-size: 50px;
+            font-weight: bold;
+            color: #7b2cbf;
+            text-align: center;
+            padding: 20px;
+            background: #3c096c;
+        }
+        .LText2 {
+            font-family: Arial, sans-serif;
+            font-size: 25px;
+            font-weight: bold;
+            color: #9d4edd;
+            text-align: left;
+            padding: 10px;
+            background: #5a189a;
+        }
+        .DowButton a {
+            
+            display: block;
+            height: 50px;
+            width: 200px;
+            color: white;
+            font: 17px/50px Helvetica, Verdana, sans-serif;
+            text-decoration: none;
+            text-align: center;
+            text-transform: uppercase;
+            -webkit-border-radius: 10px;
+            -moz-border-radius: 10px;
+            border-radius: 10px;
+            -webkit-box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+            -moz-box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+            box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+            text-decoration: none;
+            font-weight: bold;
+            color: #ffffff;
+            padding: 5px;
+            margin-bottom: 5px;
+            background-color: #10002b;
+            border-radius: 10px;
+            
+        }
+        </style>
+        <div class="GMenu">
+            Игры от создателя
+        </div>
+        <div class="LText2">
+        <h3>1. Lost hat</h3>
+        <h5>Создатель TimCherikov</h4>
+        <img src="1.png", width=270px, hspace=2px>
+        <img src="4.png", width=270px, hspace=2px>
+        <img src="3.png", width=270px, hspace=2px>
+        <img src="2.png", width=270px, hspace=2px>
+        <h3>Режим: Однопользовательская игра</h3>
+        <h3>Жанр: Платформер, Приключени, 2d</h3>
+        <div class="DowButton">
+            <a href="https://timcherikov.itch.io/the-lost-hat">Скачать</a>
+        </div>
+        </div>
+        
+    </div>
+    <div id="Update" class="hidden">
+        <style>
+            .UMenu {
+            font-family: Arial, sans-serif;
+            font-size: 50px;
+            font-weight: bold;
+            color: #7b2cbf;
+            text-align: center;
+            padding: 20px;
+            background: #3c096c;
+        }
+        .LText3 {
+            font-family: Arial, sans-serif;
+            font-size: 25px;
+            font-weight: bold;
+            color: #9d4edd;
+            text-align: left;
+            padding: 20px;
+            background: #5a189a;
+        }
+        </style>
+        <div class="UMenu">
+            Обновление сайта
+        </div>
+        <div class="LText3">
+            <h3>Обновление Beta 0.1</h3>
+            <h4>Я сделал сайт</h4>
+            <h3>Обновление Beta 0.2</h3>
+            <h4>Добавлена первая игра</h4>
+        </div>
+    </div>
+    <div id="About" class="hidden">
+        <style>
+            .AMenu {
+            font-family: Arial, sans-serif;
+            font-size: 50px;
+            font-weight: bold;
+            color: #7b2cbf;
+            text-align: center;
+            padding: 20px;
+            background: #3c096c;
+        }
+        .LText4 {
+            font-family: Arial, sans-serif;
+            font-size: 25px;
+            font-weight: bold;
+            color: #9d4edd;
+            text-align: left;
+            padding: 20px;
+            background: #5a189a;
+        }
+        </style>
+        <div class="AMenu">
+            Информация о создателе
+        </div>
+        <div class="LText4">
+            <h3>Имя: Евгений</h3>
+            <h3>Возраст: 15</h3>
+            <h3>Рост: 174,3</h3>
+            <h3>Никнейм: Faceless</h3>
+            <h3>Дискорд: faceless340</h3>
+            <h3>Почта: zemcuevg0@gmail.com</h3>
+    </div>
+</div>
+
+<script>
+    function showMenu() {
+        document.getElementById("Menu").classList.remove("hidden");
+        document.getElementById("Game").classList.add("hidden");
+        document.getElementById("Update").classList.add("hidden");
+        document.getElementById("About").classList.add("hidden");
+    }
+    
+    function showGame() {
+        document.getElementById("Menu").classList.add("hidden");
+        document.getElementById("Game").classList.remove("hidden");
+        document.getElementById("Update").classList.add("hidden");
+        document.getElementById("About").classList.add("hidden");
+    }
+    
+    function showUpdate() {
+        document.getElementById("Menu").classList.add("hidden");
+        document.getElementById("Game").classList.add("hidden");
+        document.getElementById("Update").classList.remove("hidden");
+        document.getElementById("About").classList.add("hidden");
+    }
+    
+    function showAbout() {
+        document.getElementById("Menu").classList.add("hidden");
+        document.getElementById("Game").classList.add("hidden");
+        document.getElementById("Update").classList.add("hidden");
+        document.getElementById("About").classList.remove("hidden");
+    }
+</script>
+ 
+
+</html>
+    </div>
+</body>
+</html>
